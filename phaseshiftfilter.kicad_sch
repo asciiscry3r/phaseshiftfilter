@@ -8187,8 +8187,8 @@
 		(uuid f9623608-aa31-43ca-b085-696605898af5)
 	)
 	(rectangle
-		(start 241.3225 137.4222)
-		(end 269.2625 156.4722)
+		(start 234.95 137.4222)
+		(end 276.86 156.4722)
 		(stroke
 			(width 0)
 			(type default)
@@ -8208,7 +8208,7 @@
 		)
 		(uuid "1873dd21-1e12-4464-8e20-96df6f66c2a0")
 	)
-	(text "4 devices by this this scheme at F_IN points to L and N\n\n"
+	(text "7 devices by this this scheme at F_IN points to L and N\n\n"
 		(exclude_from_sim no)
 		(at 46.99 192.278 0)
 		(effects
@@ -8218,7 +8218,7 @@
 		)
 		(uuid "1eabb322-a8e7-4f24-a8e3-ce370455c515")
 	)
-	(text "Notch filter at\n4mkF \nCRC filter to ground\nTo L and N"
+	(text "Notch filter at\n4mkF, 680 nF \nCRC filter to ground\nTo L and N"
 		(exclude_from_sim no)
 		(at 208.28 147.32 0)
 		(effects
@@ -8227,6 +8227,16 @@
 			)
 		)
 		(uuid "21d82cb5-db92-4d8b-8d89-e0bd472961eb")
+	)
+	(text "2024.12.03"
+		(exclude_from_sim no)
+		(at 263.906 178.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2979018a-d687-4612-9d31-55aa024cef60")
 	)
 	(text "06.11.2024"
 		(exclude_from_sim no)
@@ -8288,7 +8298,7 @@
 		)
 		(uuid "924f046a-96f4-4911-b508-3f79200b8ded")
 	)
-	(text "Notch filter at\n30mkF and 10mkF \nRC filter to ground\nTo L"
+	(text "Notch filter at\n30mkF and 10mkF,1mkF, 680nF, 100nF\nCRC filter to ground\nTo L and N"
 		(exclude_from_sim no)
 		(at 255.778 146.558 0)
 		(effects
@@ -8307,6 +8317,28 @@
 			)
 		)
 		(uuid "f63693ba-be1e-434c-bf7d-4057b47b9870")
+	)
+	(global_label "F_IN"
+		(shape input)
+		(at 153.67 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0283a7f5-f2ac-4e1d-af48-c2caa5090408")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.6467 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "C_30"
 		(shape input)
@@ -8330,7 +8362,29 @@
 			)
 		)
 	)
-	(global_label "F_RC"
+	(global_label "F_IN"
+		(shape input)
+		(at 45.72 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c9bab93-03b6-40d5-ab1e-a1d1f4f089ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.6967 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "F_CRC"
 		(shape input)
 		(at 252.73 139.7 0)
 		(fields_autoplaced yes)
@@ -8342,7 +8396,7 @@
 		)
 		(uuid "0cbb1fd2-6212-4a1e-9f05-2d043493fca7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.3114 139.7 0)
+			(at 261.5814 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,6 +8450,28 @@
 			)
 		)
 	)
+	(global_label "F_IN"
+		(shape input)
+		(at 104.14 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e62ea95-9c1c-4c54-b29a-7042778534a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.1167 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "F_4"
 		(shape input)
 		(at 207.01 139.7 0)
@@ -8418,7 +8494,7 @@
 			)
 		)
 	)
-	(global_label "F_RC"
+	(global_label "F_CRC"
 		(shape input)
 		(at 87.63 138.43 0)
 		(fields_autoplaced yes)
@@ -8430,7 +8506,7 @@
 		)
 		(uuid "57a0a0f8-8172-4044-958c-4c90b1c35c09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2114 138.43 0)
+			(at 96.4814 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,6 +8727,28 @@
 		(uuid "ea5d7354-caa1-4e2b-94ce-b690664251ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.0318 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "F_CRC"
+		(shape input)
+		(at 172.72 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec5867c7-8255-4e4c-9980-1c124cbe7b2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5714 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
