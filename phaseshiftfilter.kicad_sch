@@ -13169,7 +13169,7 @@
 				)
 			)
 		)
-		(property "Value" "Varistor"
+		(property "Value" "~230-240V"
 			(at 39.5633 149.86 90)
 			(effects
 				(font
@@ -14276,18 +14276,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52c1f2f6-b2db-4d52-b3e8-eb920683cbdc")
 		(property "Reference" "RV2"
-			(at 39.5633 125.73 90)
+			(at 39.37 123.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Varistor"
-			(at 39.5633 128.27 90)
+		(property "Value" "~230-240V"
+			(at 38.354 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16925,7 +16924,7 @@
 				)
 			)
 		)
-		(property "Value" "Varistor"
+		(property "Value" "~230-240V"
 			(at 39.5633 110.49 90)
 			(effects
 				(font
