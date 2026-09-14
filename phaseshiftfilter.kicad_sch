@@ -1248,6 +1248,16 @@
 		)
 		(uuid "ba690501-b196-4df7-a0d4-79ed2748ceb8")
 	)
+	(text "2026.09.13\n\n"
+		(exclude_from_sim no)
+		(at 213.36 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e8ecc34-74e6-48d1-8405-102d1a76b5ce")
+	)
 	(text "My prototype have a differences in sets of capasitors because I just dont create records about everyone when install him"
 		(exclude_from_sim no)
 		(at 104.902 19.812 0)
@@ -1308,16 +1318,6 @@
 		)
 		(uuid "3d44c612-050a-447a-aa20-ef2e3c015b4d")
 	)
-	(text "Transformers cores is or chokes or cores from switch power supplies"
-		(exclude_from_sim no)
-		(at 212.344 168.656 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "55f55891-7391-45b2-9bbd-b6d04416f06a")
-	)
 	(text "Klimenko Maxim Serhiyevich"
 		(exclude_from_sim no)
 		(at 248.412 189.738 0)
@@ -1327,16 +1327,6 @@
 			)
 		)
 		(uuid "772b37f4-0adb-4817-aecd-fbd217dfaddd")
-	)
-	(text "On transformers 1-2 is first coil 3-4 is second coil"
-		(exclude_from_sim no)
-		(at 204.47 171.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "77d097d0-8ebc-4faf-ba37-28f3469f67bc")
 	)
 	(text "Use 2 or 3 ground device with switched resistors for ground filters trought one"
 		(exclude_from_sim no)
